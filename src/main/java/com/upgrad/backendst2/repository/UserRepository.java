@@ -10,7 +10,7 @@ import javax.persistence.PersistenceUnit;
 
 @Repository
 public class UserRepository {
-    @PersistenceUnit(unitName = "st2")
+    @PersistenceUnit(unitName ="validate")
     private EntityManagerFactory emf;
 
     public void register(User newUser){
